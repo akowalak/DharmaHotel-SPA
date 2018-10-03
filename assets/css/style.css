@@ -43,7 +43,7 @@ img.right {
 
 .section {
 	background-color: rgba(037, 109, 123, 0.4);
-	margin: 30px 50px 20px;
+	margin: 50px;
 	padding: 20px 20px;
 	height: 300px;
 	color: #FFF;
@@ -53,4 +53,12 @@ img.right {
 .empty_box {
 	height: 300px;
 	width: 100%;
+}
+
+.about_paragraph {
+	padding: 90px 50px 30px;
+	text-align: center;
+	font-size: 1.2rem;
+	line-height: normal;
+
 }
