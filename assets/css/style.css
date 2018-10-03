@@ -38,6 +38,7 @@ img.right {
 
 .footer_copy {
 	background-color: green;
+	font-family: 'Pacifico', cursive;
 } 
 
 .section {
@@ -46,6 +47,7 @@ img.right {
 	padding: 20px 20px;
 	height: 300px;
 	color: #FFF;
+	font-family: 'Roboto', sans-serif;
 }
 
 .empty_box {
