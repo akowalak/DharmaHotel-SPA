@@ -1,7 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:700&subset=latin,latin-ext);
-body {
-  font-family: 'Ubuntu', sans-serif;
-}
 
 a {
   text-decoration: none;
@@ -9,8 +6,9 @@ a {
 }
 
 .buttons-container {
-  padding: 100px 0;
+  padding: 150px 0;
   text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .button {
@@ -26,6 +24,7 @@ a {
   width: 90px;
   color: #FFF;
 }
+
 .button:before {
   content: "";
   position: absolute;
@@ -40,6 +39,7 @@ a {
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
   z-index: -1;
 }
+
 .button:after {
   content: "";
   position: absolute;
@@ -54,15 +54,18 @@ a {
   transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
   z-index: -1;
 }
+
 .button:hover {
   color: #ffffff;
   border: 1px solid #39bda7;
 }
+
 .button:hover:before {
   top: -35%;
   background-color: #39bda7;
   transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
 }
+
 .button:hover:after {
   top: -45%;
   background-color: #39bda7;
