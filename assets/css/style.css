@@ -1,0 +1,46 @@
+body {
+	
+	max-width: 100%;
+    height: auto;
+}
+
+.header {
+	background-color: gray;
+	height: 200px;
+	width: 100%;
+}
+
+img.left {
+	float: left;
+	padding: 10px;
+	width: 25%;
+	height: 250px;
+	border-radius: 50%;
+	border-left: 2px solid black;
+}
+
+img.right {
+	float: right;
+	padding: 10px;
+	width: 25%;
+	height: 250px;
+	border-radius: 50%;
+	border-right: 2px solid black;
+}
+
+.footer_social {
+	background-color: rgba(0, 127, 255, 0.4);;
+	height: 400px;
+}
+
+.footer_copy {
+	background-color: green;
+} 
+
+.section {
+	background-color: rgba(0, 127, 255, 0.4);
+	margin: 30px 50px 20px;
+	padding: 0 20px;
+	height: 300px;
+	
+}
