@@ -9,24 +9,24 @@ body {
 }
 
 .header {
-	background-color: rgba(037, 109, 123, 0.4);
+	background-color: rgba(255, 255, 255, 0.7);
 	height: 200px;
 	width: 100%;
 }
 
 h1 { 
-	color: rgb(063,136,143); 
+	color: rgb(255, 255, 255); 
 	font-family: "Great Vibes", cursive; 
 	font-size: 4rem;  
 	font-weight: normal; 
 	margin-bottom: 0px; 
 	margin-top: 10px; 
 	text-align: center; 
-	text-shadow: 0 1px 1px #fff; 
+	text-shadow: 0 2px 2px rgb(002,086,105); 
 }
 
 h3 {
-	color: #FFF;
+	color: rgb(255, 255, 255);
 	font-family: 'Playball', cursive;
 	font-size: 6rem;
 	text-align: center;
@@ -52,7 +52,7 @@ img.right {
 }
 
 .footer_social {
-	background-color: rgba(037, 109, 123, 0.4);;
+	background-color: rgba(255, 255, 255, 0.7);
 	height: 400px;
 }
 
@@ -62,11 +62,12 @@ img.right {
 } 
 
 .section {
-	background-color: rgba(037, 109, 123, 0.4);
+	background-color: rgba(037, 109, 123, 0.6);
 	margin: 100px;
 	padding: 20px 20px;
 	height: 400px;
 	flex-wrap: wrap;
+	 border-radius: 50% / 10%;
 }	
 
 .empty_box {
