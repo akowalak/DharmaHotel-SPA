@@ -43,12 +43,10 @@ img.right {
 
 .section {
 	background-color: rgba(037, 109, 123, 0.4);
-	margin: 50px;
+	margin: 100px;
 	padding: 20px 20px;
-	height: 300px;
-	color: #FFF;
-	font-family: 'Roboto', sans-serif;
-}
+	height: 400px;
+}	
 
 .empty_box {
 	height: 300px;
@@ -56,9 +54,40 @@ img.right {
 }
 
 .about_paragraph {
-	padding: 90px 50px 30px;
+	padding: 50px;
 	text-align: center;
 	font-size: 1.2rem;
 	line-height: normal;
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+}
 
+.hotel_paragraph {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 1.2rem;
+	line-height: normal;
+	text-align: center;
+	padding: 50px 20px 0;
+}
+
+.spa_paragraph {
+	font-family: 'Roboto', sans-serif;
+	color: #FFF;
+	font-size: 1.2rem;
+	line-height: normal;
+	text-align: center;
+	padding: 50px 20px 0;
+}
+
+
+h1 { 
+	color: rgb(063,136,143); 
+	font-family: "Great Vibes", cursive; 
+	font-size: 4rem;  
+	font-weight: normal; 
+	margin-bottom: 0px; 
+	margin-top: 10px; 
+	text-align: center; 
+	text-shadow: 0 1px 1px #fff; 
 }
