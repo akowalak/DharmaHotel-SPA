@@ -34,7 +34,19 @@ h2.hotel_logo {
 	color: rgb(037, 109, 123);
 	text-shadow: 0 2px 2px rgb(002,086,105);
 	text-align: center;
-	padding: 15px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+h2.hotel_logo_small {
+	font-family: "Great Vibes", cursive;
+	font-size: 2.4rem;
+	border: none;
+	color: rgb(037, 109, 123);
+	text-shadow: 0 2px 2px rgb(002,086,105);
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 h3.luxury {
@@ -63,12 +75,12 @@ img.right {
 	border-right: 2px solid black;
 }
 
-.footer_social {
+.footer_container {
 	background-color: rgba(255, 255, 255, 0.7);
 	height: 400px;
 }
 
-.footer_copy {
+p.footer_copy {
 	background-color: rgba(255, 255, 255, 0.7);
 	font-family: 'Pacifico', cursive;
 } 
@@ -126,7 +138,6 @@ img.right {
 
 .contact_detail {
 	color: #FFF;
-
 }
 
 .map {
@@ -137,7 +148,7 @@ img.right {
 }
 
 .contact_detail {
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Roboto', sans serif;
 	font-size: 1.5rem;
 	padding-left: 50px;
 }
@@ -160,15 +171,20 @@ nav a {
 	height: 40px;
 	float: left;
 	text-decoration: none;
-	color: rgb(037, 109, 123);
 	background-color: white;
 	padding: 15px 30px;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-left: 3px;
 	font-size: 20px;
 	-webkit-transition: all 1s ease;
 	transition: all 1s ease;
-	text-align: center;
+	font-family: "Roboto", sans serif;
+	color: rgb(037, 109, 123);
+	font-size: 1.5rem;
+	font-weight: bold;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a.nav_bar:hover {
@@ -176,8 +192,63 @@ a.nav_bar:hover {
 	opacity: 0.7;
 	cursor: pointer;
 	color: #FFF;
+}
 
 .active {
 	background-color: rgb(037, 109, 123);
 	opacity: 0.7;
+}
+
+a.nav_bar.active {
+	color: #FFF;
+}
+
+form {
+  width: 450px;
+  margin:  1% auto;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  height: 44px;
+  border: none;
+}
+
+  
+#email {
+  width: 75%;
+  background: #FDFCFB;
+  font-family: inherit;
+  color: #737373;
+  letter-spacing: 1px;
+  text-indent: 5%;
+  border-radius: 5px 0 0 5px;
+}
+
+#submit {
+  width: 30%;
+  height: 46px;
+  background: #E86C8D;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+  
+#submit:hover {
+  background: #d45d7d;
+  color: #FFF;
+}
+  
+input:focus {
+  outline: none;
+  outline: 2px solid #E86C8D;
+  box-shadow: 0 0 2px #E86C8D;
 }
