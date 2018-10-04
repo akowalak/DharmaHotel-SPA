@@ -149,3 +149,35 @@ address a {
 .contact_tel {
 	color: #FFF;
 }
+
+nav {
+	overflow: hidden;
+}
+
+nav a {
+	display: block;
+	width: 15%;
+	height: 40px;
+	float: left;
+	text-decoration: none;
+	color: rgb(037, 109, 123);
+	background-color: white;
+	padding: 15px 30px;
+	margin-top: 30px;
+	margin-left: 3px;
+	font-size: 20px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+	text-align: center;
+}
+
+a.nav_bar:hover {
+	background-color: rgb(037, 109, 123);
+	opacity: 0.7;
+	cursor: pointer;
+	color: #FFF;
+
+.active {
+	background-color: rgb(037, 109, 123);
+	opacity: 0.7;
+}
