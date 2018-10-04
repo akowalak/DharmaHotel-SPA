@@ -29,18 +29,18 @@
 				</div>
 			</div>
 			<nav class="header_nav">
-					<a class="nav_bar active" href="#"><span class="dib">About</span></a>
-					<a class="nav_bar" href="#"><span class="dib">Hotel</span></a>
-					<a class="nav_bar" href="#"><span class="dib">SPA</span></a>
-					<a class="nav_bar" href="#"><span class="dib">Gallery</span></a>
-					<a class="nav_bar" href="#"><span class="dib">Contact</span></a>
+					<a class="nav_bar" href="#about"><span class="dib">About</span></a>
+					<a class="nav_bar" href="#hotel"><span class="dib">Hotel</span></a>
+					<a class="nav_bar" href="#spa"><span class="dib">Spa&Wellness</span></a>
+					<a class="nav_bar" href="#gallery"><span class="dib">Gallery</span></a>
+					<a class="nav_bar" href="#contact"><span class="dib">Contact</span></a>
 			</nav>
 		</header>
 		<main>
 			<div class="empty_box">
 				<h3 class="luxury">Comfort&Luxury</h3>
 			</div>
-			<section class="section about">   				 
+			<section id="about" class="section">   				 
 				<h1 class="heading">About</h1>
 				<p class="about_paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing
 				elit, sed do eiusmod
@@ -57,7 +57,7 @@
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
    				
 			</section>
-			<section class="section hotel">
+			<section id="hotel" class="section">
 				<h1 class="heading">Hotel</h1>
 				<figure>
 					<img src="assets/img/buddha.jpg" class="left" />
@@ -84,7 +84,7 @@
 					</a>
 				</div>
 			</section>
-			<section class="section SPA">
+			<section id="spa" class="section">
 				<h1 class="heading">Spa&Wellness</h1>
 				<figure>
 					<img src="assets/img/spa.jpg" class="right" />
@@ -111,16 +111,15 @@
 					</a>
 				</div>
 			</section>
-			<section class="section gallery">
+			<section id="gallery" class="section">
 				<h1 class="heading">Gallery</h1>
 			</section>
-			<section class="section contact">
+			<section id="contact" class="section">
 				<h1 class="heading">Contact</h1>
 				<div class="map"><img src="assets/img/map.jpg" class="map_img" /></div>
 				<p class="roads">All roads lead to Dharma!</p>
 				<div class="contact_detail">	
 					<address class="address">
-						Visit us at: <br/>
 						Box 333, New York<br/>
 						USA<br/>
 						<a href="mailto:Dharma@hotel&spa.com">Dharma@hotel&spa.com</a>
@@ -135,20 +134,36 @@
 		<footer>
 			<div class="empty_box"></div>
 			<div class="footer_container">
+				<h2 class="hotel_logo">Check out our Newsletter!</h1>
+				<form action="#" method="post" name="sign up for beta form">
+         			<div class="input">
+        				<input type="text" class="btn" id="email" name="email" placeholder="NAME@EXAMPLE.COM">
+       					 <input type="submit" class="btn" id="submit" value="SIGN UP">
+    			  </div>
+  			  </form>
+  			  <h2 class="hotel_logo_small">And our Social media...</h2>
 				<ul class="footer_social">
 					<li class="facebook_item">
 						<a href="https://www.facebook.com" target="blank">
 							<figure>
-								<img src="assets/img/social_media/fb.png" />
-								<figcaption>Facebook icon.</figcaption>
+								<img src="assets/img/social_media/facebo.jpg" />
+								<figcaption></figcaption>
 							</figure>
 						</a>
 					</li>
 					<li class="twitter_item">
 						<a href="https://twitter.com" target="blank">
 							<figure>
-								<img src="assets/img/social_media/twitter.png" />
-								<figcaption>Twitter icon.</figcaption>
+								<img src="assets/img/social_media/twitt.jpg" />
+								<figcaption></figcaption>
+							</figure>
+						</a>
+					</li>
+					<li class="instagram_item">
+						<a href="https://instagram.com" target="blank">
+							<figure>
+								<img src="assets/img/social_media/ins.jpg" />
+								<figcaption></figcaption>
 							</figure>
 						</a>
 					</li>
@@ -158,7 +173,7 @@
 					<a href="#" class="logo">
 						<figure>
 							<img src="#" />
-							<figcaption>Logo icon.</figcaption>
+							<figcaption></figcaption>
 						</figure>
 					</a>
 					<small>Copyright &copy; Dharma Hotel&SPA</small>
