@@ -123,7 +123,7 @@ img.right {
 	padding: 20px 20px;
 	height: 400px;
 	flex-wrap: wrap;
-	 border-radius: 50% / 10%;
+	border-radius: 50% / 10%;
 }	
 
 .empty_box {
@@ -199,53 +199,53 @@ address a {
 }
 
 form {
-  width: 450px;
-  margin:  1% auto;
+  	width: 450px;
+  	margin:  1% auto;
 }
 
 .input {
-  display: flex;
-  align-items: center;
+  	display: flex;
+  	align-items: center;
 }
 
 .btn {
-  height: 44px;
-  border: none;
+  	height: 44px;
+  	border: none;
 }
 
   
 #email {
-  width: 75%;
-  background: #FDFCFB;
-  font-family: inherit;
-  color: #737373;
-  letter-spacing: 1px;
-  text-indent: 5%;
-  border-radius: 5px 0 0 5px;
+  	width: 75%;
+  	background: #FDFCFB;
+  	font-family: inherit;
+  	color: #737373;
+  	letter-spacing: 1px;
+  	text-indent: 5%;
+  	border-radius: 5px 0 0 5px;
 }
 
 #submit {
-  width: 30%;
-  height: 46px;
-  background: #E86C8D;
-  font-family: inherit;
-  font-weight: bold;
-  color: inherit;
-  letter-spacing: 1px;
-  border-radius: 0 5px 5px 0;
-  cursor: pointer;
-  transition: background .3s ease-in-out;
+  	width: 30%;
+  	height: 46px;
+  	background: #E86C8D;
+  	font-family: inherit;
+  	font-weight: bold;
+  	color: inherit;
+  	letter-spacing: 1px;
+  	border-radius: 0 5px 5px 0;
+  	cursor: pointer;
+  	transition: background .3s ease-in-out;
 }
   
 #submit:hover {
-  background: #d45d7d;
-  color: #FFF;
+  	background: #d45d7d;
+  	color: #FFF;
 }
   
 input:focus {
-  outline: none;
-  outline: 2px solid #E86C8D;
-  box-shadow: 0 0 2px #E86C8D;
+  	outline: none;
+  	outline: 2px solid #E86C8D;
+  	box-shadow: 0 0 2px #E86C8D;
 }
 
 .footer_container {
@@ -267,93 +267,93 @@ div.footer_copy {
 } 
 
 .wrapper {
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 550px;
+  	position: relative;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	width: 550px;
 }
 
 .wrapper ul {
-  list-style: none;
+  	list-style: none;
 }
 
 .wrapper ul li {
-  width: 75px;
-  height: 75px;
-  line-height: 75px;
-  margin: 0 10px;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 50%;
-  border: 5px solid #D8E2DC;
-  float: left;
-  transition: all 0.5s ease;
+  	width: 75px;
+  	height: 75px;
+  	line-height: 75px;
+  	margin: 0 10px;
+  	text-align: center;
+  	cursor: pointer;
+  	border-radius: 50%;
+  	border: 5px solid #D8E2DC;
+  	float: left;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li .fa {
-  color: #E86C8D;
-  margin-top: 20px;
-  transition: all 0.5s ease;
+  	color: #E86C8D;
+  	margin-top: 20px;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover.facebook {
-  border: 5px solid #3b5998;
-  box-shadow: 0 0 15px #3b5998;
-  transition: all 0.5s ease;
+  	border: 5px solid #3b5998;
+  	box-shadow: 0 0 15px #3b5998;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-facebook {
-  color: #3b5998;
-  text-shadow: 0 0 15px #3b5998;
-  transition: all 0.5s ease;
+  	color: #3b5998;
+  	text-shadow: 0 0 15px #3b5998;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover.twitter {
-  border: 5px solid #00aced;
-  box-shadow: 0 0 15px #00aced;
-  transition: all 0.5s ease;
+  	border: 5px solid #00aced;
+  	box-shadow: 0 0 15px #00aced;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-twitter {
-  color: #00aced;
-  text-shadow: 0 0 15px #00aced;
-  transition: all 0.5s ease;
+  	color: #00aced;
+  	text-shadow: 0 0 15px #00aced;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover.instagram {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;
-  transition: all 0.5s ease;
+  	border: 5px solid #bc2a8d;
+  	box-shadow: 0 0 15px #bc2a8d;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-instagram {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
-  transition: all 0.5s ease;
+  	color: #bc2a8d;
+  	text-shadow: 0 0 15px #bc2a8d;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover.google {
-  border: 5px solid #dd4b39;
-  box-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
+  	border: 5px solid #dd4b39;
+  	box-shadow: 0 0 15px #dd4b39;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-google {
-  color: #dd4b39;
-  text-shadow: 0 0 15px #dd4b39;
-  transition: all 0.5s ease;
+  	color: #dd4b39;
+  	text-shadow: 0 0 15px #dd4b39;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover.whatsapp {
-  border: 5px solid #4dc247;
-  box-shadow: 0 0 15px #4dc247;
-  transition: all 0.5s ease;
+  	border: 5px solid #4dc247;
+  	box-shadow: 0 0 15px #4dc247;
+  	transition: all 0.5s ease;
 }
 
 .wrapper ul li:hover .fa-whatsapp {
-  color: #4dc247;
-  text-shadow: 0 0 15px #4dc247;
-  transition: all 0.5s ease;
+  	color: #4dc247;
+  	text-shadow: 0 0 15px #4dc247;
+  	transition: all 0.5s ease;
 }
 
 
@@ -390,94 +390,93 @@ div.footer_copy {
 }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 50px;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: black;
+	display: none;
+  	position: fixed;
+  	z-index: 1;
+  	padding-top: 50px;
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	height: 100%;
+  	overflow: auto;
+  	background-color: black;
 }
 
-
 .modal-content {
-  position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  width: 70%;
-  max-width: 1200px;
+  	position: relative;
+  	background-color: #fefefe;
+  	margin: auto;
+  	padding: 0;
+  	width: 70%;
+  	max-width: 1200px;
 }
 
 .close {
-  color: white;
-  position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
-  font-weight: bold;
+  	color: white;
+  	position: absolute;
+  	top: 10px;
+  	right: 25px;
+  	font-size: 35px;
+  	font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-  color: #999;
-  text-decoration: none;
-  cursor: pointer;
+  	color: #999;
+  	text-decoration: none;
+  	cursor: pointer;
 }
 
 .mySlides {
-  display: none;
+  	display: none;
 }
 
 .prev,
 .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
+  	cursor: pointer;
+  	position: absolute;
+  	top: 50%;
+  	width: auto;
+  	padding: 16px;
+  	margin-top: -50px;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 20px;
+  	transition: 0.6s ease;
+  	border-radius: 0 3px 3px 0;
+  	user-select: none;
+  	-webkit-user-select: none;
 }
 
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+  	right: 0;
+  	border-radius: 3px 0 0 3px;
 }
 
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+  	color: #f2f2f2;
+  	font-size: 12px;
+  	padding: 8px 12px;
+  	position: absolute;
+  	top: 0;
 }
 
 .caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
+  	text-align: center;
+  	background-color: black;
+  	padding: 2px 16px;
+  	color: white;
 }
 
 img.hover-shadow {
