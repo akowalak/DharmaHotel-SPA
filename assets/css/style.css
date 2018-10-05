@@ -117,16 +117,6 @@ img.right {
 	border-right: 2px solid black;
 }
 
-.footer_container {
-	background-color: rgba(255, 255, 255, 0.7);
-	height: 400px;
-}
-
-p.footer_copy {
-	background-color: rgba(255, 255, 255, 0.7);
-	font-family: 'Pacifico', cursive;
-} 
-
 .section {
 	background-color: rgba(037, 109, 123, 0.6);
 	margin: 100px;
@@ -137,7 +127,7 @@ p.footer_copy {
 }	
 
 .empty_box {
-	height: 300px;
+	height: 350px;
 	width: 100%;
 }
 
@@ -252,6 +242,22 @@ input:focus {
   outline: 2px solid #E86C8D;
   box-shadow: 0 0 2px #E86C8D;
 }
+
+.footer_container {
+	background-color: rgba(255, 255, 255, 0.7);
+	height: 400px;
+	width: 100%;
+}
+
+div.footer_copy {
+	font-family: 'Pacifico', cursive;
+	color: #FFF;
+	text-align: center;
+	background-color: rgba(037, 109, 123, 0.7);
+	height: 10vh;
+	width: 100%;
+	margin-top: 200px;
+} 
 
 .wrapper {
   position: relative;
